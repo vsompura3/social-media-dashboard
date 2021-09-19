@@ -14,7 +14,7 @@ Three option toggle: light/dark/system pref -- https://codepen.io/renddrew/pen/b
 
 CSS Variables (custom properties) -- https://css-tricks.com/updating-a-css-variable-with-javascript/
 
-Accessibility
+## Accessibility
 
 - Use correct heading tags
 - Screenreader-only text for card titles/username -- https://www.accessibility-developer-guide.com/examples/hiding-elements/visually/
