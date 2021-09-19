@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+article,
+span,
+section,
+header,
+main,
+footer {
+	margin: 0;
+}
+
+ul[role="list"] {
+	list-style: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+a,
+a:visited,
+a:active {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+label,
+input,
+select,
+textarea,
+button,
+optgroup {
+	font: inherit;
+}
