@@ -1,0 +1,6 @@
+// Function to convert absolute font-size to relative font-size [px -> rem]
+@use 'sass:math';
+
+@function rem($pixels, $context: 16) {
+	@return (math.div($pixels, $context)) * 1rem;
+}
