@@ -1,3 +1,4 @@
-@forward 'variables';
-@forward 'typography';
-@forward 'reset';
+@forward "./variables";
+@forward "./reset";
+@forward "./base";
+@forward "./layout";
