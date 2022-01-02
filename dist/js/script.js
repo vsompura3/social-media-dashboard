@@ -1,2 +1,2 @@
-"use strict";console.log("It's Working");
+"use strict";var check=document.getElementById("theme-toggle"),html=document.querySelector("html");check.addEventListener("change",(function(e){check.checked?html.classList.add("theme-dark"):html.classList.remove("theme-dark")}));
 //# sourceMappingURL=script.js.map

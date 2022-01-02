@@ -1,17 +1,18 @@
 html {
-	font-size: 100%;
+  font-size: 100%;
 }
 
 body {
-	font-family: var(--font-inter);
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
+  font-family: var(--font-inter);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: var(--bg);
 }
 
 h1,
 h2,
 h3,
 h4 {
-	line-height: 1.1;
+  line-height: 1.1;
 }

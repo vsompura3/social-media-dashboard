@@ -1,26 +1,59 @@
 :root {
-	--font-inter: "Inter", "Poppins", Arial, Helvetica, sans-serif;
+  --font-inter: 'Inter', 'Poppins', Arial, Helvetica, sans-serif;
 
-	--spacer: 1rem;
+  --spacer: 1rem;
 
-	--limeGreen: #1db489;
-	--brightRed: #dc414c;
-	--facebook: #198ff5;
-	--twitter: #1ca0f2;
-	--instagram-start: #fdc468;
-	--instagram-end: #df4996;
-	--youtube: #c4032a;
-	--toggle-bg-start: #378fe6;
-	--toggle-bg-end: #3eda82;
-	--toggle: #aeb3cb;
-	--dark-bg: #1e202a;
-	--dark-top-bg: #1f212e;
-	--dark-card: #252a41;
-	--dark-text-1: #8b97c6;
-	--dark-text-2: #fff;
-	--light-bg: #fff;
-	--light-top-bg: #f5f7ff;
-	--light-card: #f0f2fa;
-	--light-text-1: #63687e;
-	--light-text-2: #1e202a;
+  --limeGreen: #1db489;
+  --brightRed: #dc414c;
+  --facebook: #198ff5;
+  --twitter: #1ca0f2;
+  --instagram-start: #fdc468;
+  --instagram-end: #df4996;
+  --youtube: #c4032a;
+  --toggle-bg-start: #378fe6;
+  --toggle-bg-end: #3eda82;
+  --toggle: hsl(230, 22%, 74%);
+
+  --bg: hsl(0, 0%, 100%);
+  --top-bg: hsl(228, 100%, 98%);
+  --bg-card: hsl(228, 50%, 96%);
+  --bg-card-hover: hsl(232, 33%, 91%);
+  --text-1: hsl(229, 12%, 44%);
+  --text-2: hsl(230, 17%, 14%);
 }
+
+.theme-dark {
+  --bg: hsl(230, 17%, 14%);
+  --top-bg: hsl(232, 19%, 15%);
+  --bg-card: hsl(229, 27%, 20%);
+  --bg-card-hover: hsl(228, 26%, 27%);
+  --text-1: hsl(228, 34%, 66%);
+  --text-2: hsl(0, 0%, 100%);
+}
+/* 
+
+#### Dark Theme
+
+- Toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)
+
+#### Light Theme
+
+- Toggle: hsl(230, 22%, 74%)
+
+### Neutral
+
+#### Dark Theme
+
+- Very Dark Blue (BG): hsl(230, 17%, 14%)
+- Very Dark Blue (Top BG Pattern): hsl(232, 19%, 15%)
+- Dark Desaturated Blue (Card BG): hsl(228, 28%, 20%)
+- Desaturated Blue (Text): hsl(228, 34%, 66%)
+- White (Text): hsl(0, 0%, 100%)
+
+#### Light Theme
+
+- White (BG): hsl(0, 0%, 100%)
+- Very Pale Blue (Top BG Pattern): hsl(225, 100%, 98%)
+- Light Grayish Blue (Card BG): hsl(227, 47%, 96%)
+- Dark Grayish Blue (Text): hsl(228, 12%, 44%)
+- Very Dark Blue (Text): hsl(230, 17%, 14%) */
