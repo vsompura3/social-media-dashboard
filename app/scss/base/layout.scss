@@ -40,7 +40,49 @@
   }
 }
 
-// TODO - Theme Toggle Here
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+
+  & span:first-child {
+    color: var(--text-1);
+
+    &:hover {
+      color: var(--text-2);
+    }
+  }
+
+  &__switch {
+    width: 50px;
+    height: 25px;
+    background: linear-gradient(
+      to right,
+      var(--toggle-bg-start),
+      var(--toggle-bg-end)
+    );
+    border-radius: 50vh;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 2.5px;
+      top: 2.25px;
+      background: var(--toggle);
+      border-radius: 50%;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+  &__input:checked + &__switch::after {
+    left: calc(100% - 2.5px);
+    transform: translateX(-100%);
+  }
+}
 
 // Sections
 section {
@@ -69,6 +111,7 @@ section {
   & .card {
     border-radius: 4px;
     background: var(--bg-card);
+    cursor: pointer;
 
     &:hover {
       background: var(--bg-card-hover);
