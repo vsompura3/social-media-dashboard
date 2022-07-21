@@ -1,2 +1,0 @@
-"use strict";var themeToggle=document.getElementById("theme-toggle"),html=document.querySelector("html");themeToggle.addEventListener("change",(function(){themeToggle.checked?html.classList.add("theme-dark"):html.classList.remove("theme-dark")}));
-//# sourceMappingURL=script.js.map
