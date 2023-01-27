@@ -164,7 +164,9 @@ h4 {
 .toggle span:first-child:hover {
   color: var(--text-2);
 }
+
 .toggle__switch {
+  cursor: pointer;
   background: linear-gradient(
     to right,
     var(--toggle-bg-start),
@@ -186,6 +188,12 @@ h4 {
   transition: all 0.2s ease-in-out;
   width: 20px;
 }
+
+.toggle__input:focus-visible + .toggle__switch {
+  outline: 2px solid var(--text-2);
+  outline-offset: 4px;
+}
+
 .toggle__input:checked + .toggle__switch:after {
   left: calc(100% - 2.5px);
   transform: translateX(-100%);
@@ -323,4 +331,19 @@ section {
 .cards--2 .card:nth-child(7) .card__report,
 .cards--2 .card:nth-child(8) .card__report {
   color: var(--brightRed);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.attribution {
+  color: var(--text-2);
+}
+
+.attribution a {
+  display: inline-block;
+  color: var(--text-2);
+  font-style: italic;
 }
